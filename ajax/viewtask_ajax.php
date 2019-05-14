@@ -42,12 +42,12 @@
         $taskTitle = htmlspecialchars($_POST['taskTitle']);
         $dateAssigned = htmlspecialchars($_POST['dateAssigned']);
         $dateDue = htmlspecialchars($_POST['dateDue']);
-        $taskType = encodeIt($_POST['taskType']);
+        $taskType = $_POST['taskType'];
         $dateComp = htmlspecialchars($_POST['dateComp']);
-        $taskStatus = encodeIt($_POST['taskStatus']);
-        $taskRef = encodeIt($_POST['taskRef']);
-        $taskDesc = encodeIt($_POST['taskDesc']);
-        $taskNotes = encodeIt($_POST['taskNotes']);
+        $taskStatus = $_POST['taskStatus'];
+        $taskRef = $_POST['taskRef'];
+        $taskDesc = $_POST['taskDesc'];
+        $taskNotes = $_POST['taskNotes'];
         $taskId = htmlspecialchars($_POST['taskId']);
         $updatDate = htmlspecialchars($_POST['updatDate']);
         $now = date('Y-m-d H:i:s');

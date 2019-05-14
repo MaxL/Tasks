@@ -43,12 +43,12 @@
             $dateDue = '';
         }
         if ($v[5] != '') {
-            $taskType = decodeIt($v[5]);
+            $taskType = $v[5];
         } else {
             $taskType = '';
         }
         if ($v[6] != '') {
-            $taskRef = decodeIt($v[6]);
+            $taskRef = $v[6];
         } else {
             $taskRef = '';
         }
@@ -61,17 +61,17 @@
 
     foreach ($taskdata as $k => $v) {
         if ($v[9] != '') {
-            $taskDesc = decodeIt($v[9]);
+            $taskDesc = $v[9];
         } else {
             $taskDesc = '';
         }
         if ($v[10] != '') {
-            $taskNotes = decodeIt($v[10]);
+            $taskNotes = $v[10];
         } else {
             $taskNotes = '';
         }
         if ($v[11] != '') {
-            $taskStatus = decodeIt($v[11]);
+            $taskStatus = $v[11];
         } else {
             $taskStatus = '';
         }

@@ -41,9 +41,9 @@
 								<th><?php echo $taskTitleText; ?></th>
 								<th class="text-center"><?php echo $typeText; ?></th>
 								<th class="text-center hidden-xs"><?php echo $dateAssignedText; ?></th>
-								<th class="text-center hidden-xs"><?php echo $dateDueText; ?></th>
+								<th class="text-center"><?php echo $dateDueText; ?></th>
 								<th class="text-center hidden-xs"><?php echo $updatedText; ?></th>
-								<th class="text-center"><?php echo $statusText; ?></th>
+								<th class="text-center hidden-xs"><?php echo $statusText; ?></th>
 								<th class="text-center"><?php echo $completedText; ?></th>
 								<th class="text-center"></th>
 							</tr>
@@ -58,7 +58,7 @@
                                     $taskDate = shortMonthFormat($v[3]);
                                     $dateDue = shortMonthFormat($v[4]);
                                     if ($v[5] != '') {
-                                        $taskType = decodeIt($v[5]);
+                                        $taskType = $v[5];
                                     } else {
                                         $taskType = '';
                                     }
@@ -71,7 +71,7 @@
                                         $taskBg = 'indev';
                                     }
                                     if ($v[11] != '') {
-                                        $taskStatus = decodeIt($v[11]);
+                                        $taskStatus = $v[11];
                                     } else {
                                         $taskStatus = '';
                                     }
@@ -84,9 +84,9 @@
 										</td>
 										<td class="text-center <?php echo $taskBg; ?>"><small><?php echo $taskType; ?></small></td>
 										<td class="text-center hidden-xs <?php echo $taskBg; ?>"><small><?php echo $taskDate; ?></small></td>
-										<td class="text-center hidden-xs <?php echo $taskBg; ?>"><small><?php echo $dateDue; ?></small></td>
+										<td class="text-center <?php echo $taskBg; ?>"><small><?php echo $dateDue; ?></small></td>
 										<td class="text-center hidden-xs <?php echo $taskBg; ?>"><small><?php echo $updDate; ?></small></td>
-										<td class="text-center <?php echo $taskBg; ?>"><small><?php echo $taskStatus; ?></small></td>
+										<td class="text-center hidden-xs <?php echo $taskBg; ?>"><small><?php echo $taskStatus; ?></small></td>
 										<td class="text-center <?php echo $taskBg; ?>"><small><?php echo $dateComp; ?></small></td>
 										<td class="text-right <?php echo $taskBg; ?>">
 											<input type="hidden" class="tid" value="<?php echo $taskId; ?>" />
