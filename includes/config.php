@@ -1,18 +1,18 @@
 <?php
     // Settings
-    error_reporting(0);                                                    // Error Logging OFF in Production Environments
-    ini_set('display_errors', '0');
+    error_reporting(1);                                                    // Error Logging OFF in Production Environments
+    ini_set('display_errors', '1');
 
     // Sets the default timezone used by all date/time functions.
     // List of Supported Timezones: http://php.net/manual/en/timezones.php
-    date_default_timezone_set('Europe/Madrid');
+    date_default_timezone_set('Europe/Berlin');
 
     // Globals
-    $installDate = 'September 2016';                    // Date Installed
-    $siteName = 'MPTasks Demo';                // Site Name
-    $siteUrl = 'https://demo.miguelpiedrafita.com/tasks';    // Site URL, where you have uploaded Simple Tasks to. Include the trailing slash
-    $siteEmail = 'soy@miguelpiedrafita.com';            // Site Email. Used in all email notifications
-    $language = 'english';                    // Site Language (options: english or custom). Language files are located in the "language" folder
-    $signupstatus = true;                            // Signup Status (options: true or false). Set it to false to disable signup.
+    $installDate = 'May 2019';                    // Date Installed
+    $siteName = 'Allmende ToDo';                // Site Name
+    $siteUrl = 'http://tasks.local';    // Site URL, where you have uploaded Simple Tasks to. Include the trailing slash
+    $siteEmail = 'max@broomie.de';            // Site Email. Used in all email notifications
+    $language = 'custom';                    // Site Language (options: english or custom). Language files are located in the "language" folder
+    $signupstatus = false;                            // Signup Status (options: true or false). Set it to false to disable signup.
 
-    define('PEPPER', 'LeRzpnVqmrDyZ$q6fZb#Sv2!7MqP3CPn');            // !IMPORTANT! Do NOT change this value once you have started using Tasks.;
+    define('PEPPER', 'F8*F!fb$AGSN9P2f%ryAnh');            // !IMPORTANT! Do NOT change this value once you have started using Tasks.;

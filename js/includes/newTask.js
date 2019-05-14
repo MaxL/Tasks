@@ -4,12 +4,12 @@
  * Do NOT modify any code below line 12.
  **/
 
-var taskReqText 		= 'The New Task will need a Title.';
-var taskDateAssigned 	= 'The Task needs the Date Assigned.';
-var taskDateDue			= 'The Task needs the Date Due.';
-var taskDescText 		= 'The Task Description is required.';
-var newTaskSaved 		= 'The New Task has been successfully created.';
-var errorText 			= 'Looks like an unexpected error was encountered, and the New Task could not be created at this time.';
+var taskReqText 		= 'Titel erforderlich.';
+var taskDateAssigned 	= 'Erstellungsdatum erfoderlich.';
+var taskDateDue			= 'Abgabe Datum erfoderlich.';
+var taskDescText 		= 'Beschreibung erforderlich.';
+var newTaskSaved 		= 'Todo erfolgreich erstellt.';
+var errorText 			= 'Unbekannter Fehler, Todo konnte nicht erstellt werden.';
 
 /** END Localizations **/
 

@@ -4,8 +4,8 @@
  * Do NOT modify any code below line 10.
  **/
 
-var newNoteTitle 	= 'The New Note will need a Title.';
-var newNoteEmpty 	= 'The Note can not be empty.';
+var newNoteTitle 	= 'Die Notiz braucht einen Titel.';
+var newNoteEmpty 	= 'Notiz darf nicht leer sein.';
 var newNoteText 	= 'The New Note has been saved.';
 var errorText 		= 'Looks like an unexpected error was encountered, and the New Note could not be saved at this time.';
 

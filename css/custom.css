@@ -6,13 +6,11 @@
    ========================================================================== */
 html, body { height: 100%; }
 	body {
-		font-family: "Muli", sans-serif;
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 		font-size: 16px;
 		font-weight: 300;
 		line-height: 1.6;
 		color: #555555;
-		background: none repeat scroll 0 0 #333;
-		overflow-x: hidden;
 	}
 
 a {
@@ -119,7 +117,7 @@ pre { max-width: 1200px; }
 	border-bottom: 1px solid #222222;
 	background: #2a2a2a;
 }
-
+/*
 .nav li a {
 	position: relative;
 	display: block;
@@ -146,7 +144,7 @@ pre { max-width: 1200px; }
 		box-shadow: inset 5px 0 0 #7fc6a4, inset 6px 0 0 #222222;
 		background: #444444;
 	}
-
+*/
 /* ==========================================================================
    Margins
    ========================================================================== */

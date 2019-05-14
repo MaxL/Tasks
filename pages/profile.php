@@ -35,22 +35,12 @@
     $jsFile = 'profile';
     include 'includes/header.php';
 ?>
-	<div class="wrapper">
-		<?php include 'includes/navigation.php'; ?>
+	<div class="container">
 
-		<div class="content content-is-open">
-			<div class="top-block">
-				<div class="row">
-					<div class="col-md-10">
-						<p><?php echo $pageTitle; ?></p>
-					</div>
-					<div class="col-md-2 text-right">
-						<span class="side-panel-toggle" data-toggle="tooltip" data-placement="left"title="<?php echo $openCloseNavText; ?>"><i class="fa fa-bars"></i></span>
-					</div>
-				</div>
-			</div>
+		<div class="row">
 
-			<div class="page-content mt-30">
+			<div class="col-xs-12">
+        <h3><?php echo $pageTitle; ?></h3>
 				<form action="" method="post" class="mb-20">
 					<div class="row">
 						<div class="col-md-6">

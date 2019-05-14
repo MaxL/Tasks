@@ -4,11 +4,11 @@
  * Do NOT modify any code below line 11.
  **/
 
-var deleteTaskTitle			= 'Delete Task Confirmation';
-var deleteTaskQuip			= 'Are you sure you want to permentently DELETE this Task?';
-var delYesOption			= 'Yes, Delete It';
-var cancelDelOption			= 'Cancel';
-var deleteError				= 'An Error was encountered, and the Task could not be deleted at this time.';
+var deleteTaskTitle			= 'Todo wirklich löschen';
+var deleteTaskQuip			= 'Sind Sie sicher dass diese Todo permanent gelöscht werden soll?';
+var delYesOption			= 'Ja, löschen';
+var cancelDelOption			= 'Nein';
+var deleteError				= 'Fehler - todo konnte nicht gelöscht werden.';
 
 /** END Localizations **/
 

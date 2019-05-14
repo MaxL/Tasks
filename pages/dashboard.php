@@ -28,22 +28,11 @@
     $jsFile = 'dashboard';
     include 'includes/header.php';
 ?>
-	<div class="wrapper">
-		<?php include 'includes/navigation.php'; ?>
+	<div class="container">
+		<h3><?php echo $pageTitle; ?></h3>
 
-		<div class="content content-is-open">
-			<div class="top-block">
-				<div class="row">
-					<div class="col-md-10">
-						<p><?php echo $pageTitle; ?></p>
-					</div>
-					<div class="col-md-2 text-right">
-						<span class="side-panel-toggle" data-toggle="tooltip" data-placement="left" title="<?php echo $openCloseNavText; ?>"><i class="fa fa-bars"></i></span>
-					</div>
-				</div>
-			</div>
-
-			<div class="page-content mt-30">
+			<div class="row">
+        <div class="col-xs-12">
 				<?php if (!empty($res)) {
     ?>
 					<table id="tasks" class="display" cellspacing="0">
@@ -51,9 +40,9 @@
 							<tr>
 								<th><?php echo $taskTitleText; ?></th>
 								<th class="text-center"><?php echo $typeText; ?></th>
-								<th class="text-center"><?php echo $dateAssignedText; ?></th>
-								<th class="text-center"><?php echo $dateDueText; ?></th>
-								<th class="text-center"><?php echo $updatedText; ?></th>
+								<th class="text-center hidden-xs"><?php echo $dateAssignedText; ?></th>
+								<th class="text-center hidden-xs"><?php echo $dateDueText; ?></th>
+								<th class="text-center hidden-xs"><?php echo $updatedText; ?></th>
 								<th class="text-center"><?php echo $statusText; ?></th>
 								<th class="text-center"><?php echo $completedText; ?></th>
 								<th class="text-center"></th>
@@ -94,9 +83,9 @@
 											</a>
 										</td>
 										<td class="text-center <?php echo $taskBg; ?>"><small><?php echo $taskType; ?></small></td>
-										<td class="text-center <?php echo $taskBg; ?>"><small><?php echo $taskDate; ?></small></td>
-										<td class="text-center <?php echo $taskBg; ?>"><small><?php echo $dateDue; ?></small></td>
-										<td class="text-center <?php echo $taskBg; ?>"><small><?php echo $updDate; ?></small></td>
+										<td class="text-center hidden-xs <?php echo $taskBg; ?>"><small><?php echo $taskDate; ?></small></td>
+										<td class="text-center hidden-xs <?php echo $taskBg; ?>"><small><?php echo $dateDue; ?></small></td>
+										<td class="text-center hidden-xs <?php echo $taskBg; ?>"><small><?php echo $updDate; ?></small></td>
 										<td class="text-center <?php echo $taskBg; ?>"><small><?php echo $taskStatus; ?></small></td>
 										<td class="text-center <?php echo $taskBg; ?>"><small><?php echo $dateComp; ?></small></td>
 										<td class="text-right <?php echo $taskBg; ?>">
@@ -122,6 +111,7 @@
 					<p><a href="index.php?page=newTask" class="btn btn-lg btn-info"><?php echo $addOneNowText; ?></a></p>
 				<?php
                                 } ?>
+
 			</div>
 		</div>
 	</div>

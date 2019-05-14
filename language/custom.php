@@ -9,97 +9,97 @@
 // --------------------------------------------------------------------------------------------------
 $metaDesc = 'Simple Tasks Flat File task tracker system written in PHP, jQuery and Bootstrap using a custom flat file database.';
 $metaAuthor = 'Miguel Piedrafita';
-$closeBtn = 'Close';
-$saveChangesBtn = 'Save Changes';
-$openCloseNavText = 'Open/Close Navigation';
+$closeBtn = 'Schließen';
+$saveChangesBtn = 'Änderungen speichern';
+$openCloseNavText = 'Öffnen/Schließen';
 $dateFormatSpan = 'Format: yyyy-mm-dd';
-$notRequiredSpan = 'Not Required.';
-$pageBottomText = 'Bottom of Page';
-$pageTopText = 'Top of Page';
-$deleteText = 'Delete';
+$notRequiredSpan = 'Nicht erforderlich.';
+$pageBottomText = 'Seite unten';
+$pageTopText = 'Seite oben';
+$deleteText = 'Löschen';
 
 // includes/navigation.php
 // --------------------------------------------------------------------------------------------------
-$myTasksText = 'My Tasks';
-$newTaskText = 'New Task';
-$myNotesText = 'My Notes';
-$newNoteText = 'New Note';
-$profileText = 'Profile';
-$signOutText = 'Sign Out';
+$myTasksText = 'Todo';
+$newTaskText = 'Neue Todo';
+$myNotesText = 'Notizen';
+$newNoteText = 'Neue Notiz';
+$profileText = 'Profil';
+$signOutText = 'Ausloggen';
 
 // sign-in.php
 // --------------------------------------------------------------------------------------------------
-$signInPageTitle = 'Account Sign In';
-$signInText = 'Sign In';
-$usernameText = 'Username';
-$passwordText = 'Password';
-$forgotPassLink = 'Forgot Password?';
-$signUpText = 'Sign Up';
+$signInPageTitle = 'Log In';
+$signInText = 'Log In';
+$usernameText = 'Nutzername';
+$passwordText = 'Passwort';
+$forgotPassLink = 'Passwort vergessen?';
+$signUpText = 'Registrieren';
 $emailText = 'Email';
-$createAccText = 'Create Account';
-$resetAccPassText = 'Reset Account Password';
-$accEmailText = 'Account Email';
-$resetPassText = 'Reset Password';
+$createAccText = 'Account erstellen';
+$resetAccPassText = 'Passwort zurücksetzen';
+$accEmailText = 'Email';
+$resetPassText = 'Passwort zurücksetzen';
 
 // pages/dashboard.php
 // --------------------------------------------------------------------------------------------------
-$taskTitleText = 'Task Title';
-$typeText = 'Type';
-$dateAssignedText = 'Date Assigned';
-$dateDueText = 'Date Due';
-$updatedText = 'Updated';
+$taskTitleText = 'Titel';
+$typeText = 'Typ';
+$dateAssignedText = 'Erstellt';
+$dateDueText = 'Fällig am';
+$updatedText = 'Aktualisiert';
 $statusText = 'Status';
-$completedText = 'Completed';
-$viewUpdateTaskText = 'View/Update Task';
-$noTasksText = 'No Tasks have been created.';
-$addOneNowText = 'Why not add one now?';
+$completedText = 'Abgeschlossen';
+$viewUpdateTaskText = 'Todo ansehen/bearbeiten';
+$noTasksText = 'Keine Todos vorhanden.';
+$addOneNowText = 'Füge doch eine hinzu';
 
 // pages/newNote.php
 // --------------------------------------------------------------------------------------------------
-$newNotePageTitle = 'Add a New Note';
-$noteTitleText = 'Note Title';
-$textOnlySpan = 'Text Only, No special characters.';
-$notesFieldText = 'Notes';
-$saveNewNoteText = 'Save New Note';
+$newNotePageTitle = 'Neue Notiz';
+$noteTitleText = 'Titel';
+$textOnlySpan = 'Bitte nur Text, keine Sonderzeichen.';
+$notesFieldText = 'Notiz';
+$saveNewNoteText = 'Notiz speichern';
 
 // pages/newTask.php
 // --------------------------------------------------------------------------------------------------
-$newTaskPageTitle = 'Create a New Task';
-$typeOfTaskText = 'Type of Task';
-$taskReferenceText = 'Task Reference';
-$taskDescText = 'Task Description';
-$saveNewTaskText = 'Save New Task';
+$newTaskPageTitle = 'Neue Todo erstellen';
+$typeOfTaskText = 'Typ';
+$taskReferenceText = 'Todo Referenz';
+$taskDescText = 'Todo Beschreibung';
+$saveNewTaskText = 'Todo speichern';
 
 // pages/notes.php
 // --------------------------------------------------------------------------------------------------
-$dateSavedText = 'Date Saved';
-$lastUpdatedText = 'Last Updated';
-$viewUpdateNoteText = 'View/Update Note';
-$noNotesText = 'No Notes have been saved.';
+$dateSavedText = 'Gespeichert am';
+$lastUpdatedText = 'Aktualisiert am';
+$viewUpdateNoteText = 'Notiz ansehen/bearbeiten';
+$noNotesText = 'Keine Notizen vorhanden.';
 
 // pages/profile.php
 // --------------------------------------------------------------------------------------------------
-$profilePageTitle = 'My Account Profile';
-$usernameSpan = 'You can not change your Account Username.';
-$memberSinceText = 'Member Since';
-$memberSinceSpan = 'The Date you signed up.';
-$updateAccountEmailH4 = 'Update Account Email Address';
-$emailAddressText = 'Email Address';
-$validEmailText = 'A valid Email Address please.';
-$changeAccPassH4 = 'Change Account Password';
-$changeAccPassQuip = 'Leave these fields blank if you do not wish to change your current Account Password.';
-$newPassText = 'New Password';
-$repeatPassText = 'Repeat New Password';
-$updateProfileText = 'Update Profile';
+$profilePageTitle = 'Mein Profil';
+$usernameSpan = 'Nutzername kann nicht geändert werden.';
+$memberSinceText = 'Mitglied seit';
+$memberSinceSpan = '';
+$updateAccountEmailH4 = 'Email Adresse aktualisieren';
+$emailAddressText = 'Email Adresse';
+$validEmailText = 'bitte nur gültige Email Adressen';
+$changeAccPassH4 = 'Passwort ändern';
+$changeAccPassQuip = 'Felder leer lassen um das Passwort nicht zu ändern';
+$newPassText = 'Neues Passwort';
+$repeatPassText = 'Neues Passwort wiederholen';
+$updateProfileText = 'Profil speichern';
 
 // pages/viewNote.php
 // --------------------------------------------------------------------------------------------------
-$viewNotePageTitle = 'View Note';
-$dateCreatedText = 'Date Created';
+$viewNotePageTitle = 'Notiz sehen';
+$dateCreatedText = 'Erstellungsdatum';
 
 // pages/viewTask.php
 // --------------------------------------------------------------------------------------------------
-$viewTaskPageTitle = 'View Task';
-$dateCompletedText = 'Date Completed';
-$taskStatusText = 'Task Status';
-$taskNotesText = 'Task Notes';
+$viewTaskPageTitle = 'Todo';
+$dateCompletedText = 'Abgeschlossen am';
+$taskStatusText = 'Todo Status';
+$taskNotesText = 'Todo Notizen';

@@ -4,10 +4,10 @@
  * Do NOT modify any code below line 10.
  **/
 
-var accountSignOutTitle 	= 'Account Sign Out';
-var accountSignOutText 		= 'Are you sure you want to sign out of your account?';
-var yesOption 				= 'Yes';
-var cancelOption 			= 'Cancel';
+var accountSignOutTitle 	= 'Ausloggen';
+var accountSignOutText 		= 'Sicher ausloggen?';
+var yesOption 				= 'Ja';
+var cancelOption 			= 'Nein';
 
 /** END Localizations **/
 
@@ -17,12 +17,6 @@ function resizeTextArea($element) {
 }
 
 jQuery(document).ready(function($) {
-	/** ******************************
-	* Side Panel
-	****************************** **/
-	$('.side-panel-toggle').on('click', function() {
-		$('.content').toggleClass('content-is-open');
-	});
 
 	/** ******************************
 	* Activate Tool-tips

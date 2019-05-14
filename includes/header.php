@@ -23,3 +23,4 @@
 	<![endif]-->
 </head>
 <body>
+	<?php include 'includes/navigation.php'; ?>
