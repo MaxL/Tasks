@@ -150,6 +150,3 @@ input.field-input {
   filter: blur(1px);
   opacity: 0.6;
 }
-
-#signup,#login { transition: 0.5s cubic-bezier(0.64, 0.35, 0.58, 1); }
-#login { transform: translateX(-160px); }
