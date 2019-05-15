@@ -43,8 +43,8 @@
                                 foreach ($res as $k => $v) {
                                     $noteId = $v[1];
                                     $noteTitle = $v[2];
-                                    $noteDate = shortMonthFormat($v[3]);
-                                    $updDate = shortMonthTimeFormat($v[5]); ?>
+                                    $noteDate = dateFormatAllmende($v[3]);
+                                    $updDate = dateFormatAllmende($v[5]); ?>
 									<tr>
 										<td>
 											<a href="index.php?page=viewNote&noteId=<?php echo $noteId; ?>" data-toggle="tooltip" data-placement="right" title="<?php echo $viewUpdateNoteText; ?>">

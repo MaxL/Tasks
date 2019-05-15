@@ -4,10 +4,10 @@
  * Do NOT modify any code below line 10.
  **/
 
-var validEmailReq 		= 'A valid Email Address is required.';
-var passNoMatch 		= 'New Account Passwords do not match';
-var accUpdated 			= 'Cheer! Your Account Profile has been updated.';
-var errorText 			= 'Whoops, looks like an unexpected error was encountered, and your Account Profile could not be updated at this time.';
+var validEmailReq 		= 'Bitte gültige E-Mail Adresse eingeben.';
+var passNoMatch 		= 'Passwörter stimmen nicht überein';
+var accUpdated 			= 'Profil wurde aktualisiert.';
+var errorText 			= 'Unbekannter Fehler, Profil konnte nicht gespeichert werden.';
 
 /** END Localizations **/
 

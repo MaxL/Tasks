@@ -55,8 +55,8 @@
 
                                     $taskId = $v[1];
                                     $taskTitle = $v[2];
-                                    $taskDate = shortMonthFormat($v[3]);
-                                    $dateDue = shortMonthFormat($v[4]);
+                                    $taskDate = dateFormatAllmende($v[3]);
+                                    $dateDue = dateFormatAllmende($v[4]);
                                     if ($v[5] != '') {
                                         $taskType = $v[5];
                                     } else {
@@ -65,7 +65,7 @@
                                     $taskRef = $v[6];
                                     $percComp = $v[7];
                                     if ($v[8] != '') {
-                                        $dateComp = shortMonthFormat($v[8]);
+                                        $dateComp = dateFormatAllmende($v[8]);
                                     } else {
                                         $dateComp = '';
                                         $taskBg = 'indev';
@@ -75,7 +75,7 @@
                                     } else {
                                         $taskStatus = '';
                                     }
-                                    $updDate = shortMonthTimeFormat($v[12]); ?>
+                                    $updDate = dateFormatAllmende($v[12]); ?>
 									<tr>
 										<td class="<?php echo $taskBg; ?>">
 											<a href="index.php?page=viewTask&taskId=<?php echo $taskId; ?>" data-toggle="tooltip" data-placement="right" title="<?php echo $viewUpdateTaskText; ?>">

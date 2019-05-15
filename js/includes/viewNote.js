@@ -4,10 +4,10 @@
  * Do NOT modify any code below line 10.
  **/
 
-var noteTitleReq		= "The Note's Title can not be empty.";
-var noteReq				= 'The Note can not be empty.';
-var noteSavedText		= 'Cheer! The Note has been updated.';
-var noteError			= 'Whoops, looks like an unexpected error was encountered, and the Note could not be updated at this time.';
+var noteTitleReq		= "Titel erforderlich.";
+var noteReq				= 'Notiz erforderlich.';
+var noteSavedText		= 'Notiz aktualisiert.';
+var noteError			= 'Unbekannter Fehler, Notiz konnte nicht gespeichert werden.';
 
 /** END Localizations **/
 

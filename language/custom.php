@@ -44,12 +44,12 @@ $resetPassText = 'Passwort zurücksetzen';
 // pages/dashboard.php
 // --------------------------------------------------------------------------------------------------
 $taskTitleText = 'Titel';
-$typeText = 'Typ';
+$typeText = 'Zuständig';
 $dateAssignedText = 'Erstellt';
-$dateDueText = 'Fällig am';
+$dateDueText = 'Fällig';
 $updatedText = 'Aktualisiert';
 $statusText = 'Status';
-$completedText = 'Abgeschlossen';
+$completedText = 'Fertig';
 $viewUpdateTaskText = 'Todo ansehen/bearbeiten';
 $noTasksText = 'Keine Todos vorhanden.';
 $addOneNowText = 'Füge doch eine hinzu';
@@ -65,10 +65,10 @@ $saveNewNoteText = 'Notiz speichern';
 // pages/newTask.php
 // --------------------------------------------------------------------------------------------------
 $newTaskPageTitle = 'Neue Todo erstellen';
-$typeOfTaskText = 'Typ';
-$taskReferenceText = 'Todo Referenz';
-$taskDescText = 'Todo Beschreibung';
-$saveNewTaskText = 'Todo speichern';
+$typeOfTaskText = 'Zuständig';
+$taskReferenceText = 'Referenz';
+$taskDescText = 'Beschreibung';
+$saveNewTaskText = 'Speichern';
 
 // pages/notes.php
 // --------------------------------------------------------------------------------------------------
@@ -100,6 +100,6 @@ $dateCreatedText = 'Erstellungsdatum';
 // pages/viewTask.php
 // --------------------------------------------------------------------------------------------------
 $viewTaskPageTitle = 'Todo';
-$dateCompletedText = 'Abgeschlossen am';
-$taskStatusText = 'Todo Status';
-$taskNotesText = 'Todo Notizen';
+$dateCompletedText = 'Fertig';
+$taskStatusText = 'Status';
+$taskNotesText = 'Anmerkungen';

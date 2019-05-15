@@ -26,12 +26,12 @@
     foreach ($note as $k => $v) {
         $noteTitle = $v[2];
         if ($v[3] != '') {
-            $noteDate = dateFormat($v[3]);
+            $noteDate = dateFormatAllmende($v[3]);
         } else {
             $dateFormat = '';
         }
         if ($v[5] != '') {
-            $updated = dateFormat($v[5]);
+            $updated = dateFormatAllmende($v[5]);
         } else {
             $updated = '';
         }
@@ -44,7 +44,7 @@
 
     foreach ($notedata as $k => $v) {
         if ($v[4] != '') {
-            $noteText = decodeIt($v[4]);
+            $noteText = $v[4];
         } else {
             $noteText = '';
         }

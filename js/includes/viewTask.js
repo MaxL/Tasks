@@ -4,13 +4,13 @@
  * Do NOT modify any code below line 10.
  **/
 
-var taskTitleReq		= "The Task's Title can not be empty.";
-var assignedDateReq		= "The Task's Assigned Date can not be empty.";
-var dueDateReq			= "The Task's Due Date can not be empty.";
-var taskDescReq			= "The Task's Description can not be empty.";
-var taskUpdatedMsg		= 'Cheer! The Task has been updated.';
-var updateError			= 'Whoops, looks like an unexpected error was encountered, and the Task could not be updated at this time.';
-var taskCompOnText		= 'Completed Task on';
+var taskTitleReq		= "Titel erforderlich.";
+var assignedDateReq		= "Erstellungsdatum erforderlich.";
+var dueDateReq			= "Fälligkeitsdatum erforderlich.";
+var taskDescReq			= "Beschreibung erforderlich.";
+var taskUpdatedMsg		= 'Todo wurde aktualisiert.';
+var updateError			= 'Unbekannter Fehler, Todo konnte nicht gespeichert werden.';
+var taskCompOnText		= 'Todo abgeschlossen am';
 
 /** END Localizations **/
 

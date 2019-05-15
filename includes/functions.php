@@ -6,6 +6,12 @@
      * @param string $v   		The database value (ie. 2016-03-07 09:30:00)
      * @return string           The formatted Date and/or Time
      */
+    function dateFormatAllmende($v)
+    {
+        $theDate = date('d.m.y', strtotime($v));
+
+        return $theDate;                                // March 07, 2016
+    }
     function dateFormat($v)
     {
         $theDate = date('F d, Y', strtotime($v));
